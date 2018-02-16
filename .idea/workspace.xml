@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb85a47f-d14f-4f49-94b2-b38f1b34bddc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-inorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-postorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-preorder.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +23,8 @@
       <file leaf-file-name="binaryTree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="576">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -45,6 +49,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree.js" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
+        <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-preorder.html" />
+        <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-postorder.html" />
+        <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-inorder.html" />
       </list>
     </option>
   </component>
@@ -55,8 +62,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
-    <option name="y" value="38" />
+    <option name="x" value="657" />
+    <option name="y" value="49" />
     <option name="width" value="1141" />
     <option name="height" value="881" />
   </component>
@@ -130,15 +137,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518712833097</updated>
       <workItem from="1518712836825" duration="262000" />
-      <workItem from="1518714103330" duration="1420000" />
+      <workItem from="1518714103330" duration="4445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1682000" />
+    <option name="totallyTimeSpent" value="4707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="38" width="1141" height="881" extended-state="0" />
+    <frame x="657" y="49" width="1141" height="881" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -207,10 +214,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree-inorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree-preorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree-postorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="576">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
         </state>
       </provider>
