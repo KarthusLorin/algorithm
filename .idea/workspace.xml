@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb85a47f-d14f-4f49-94b2-b38f1b34bddc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-inorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-postorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree-preorder.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="binaryTree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="115">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -48,10 +44,10 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree.js" />
-        <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-preorder.html" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-postorder.html" />
         <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree-inorder.html" />
+        <option value="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
       </list>
     </option>
   </component>
@@ -137,12 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518712833097</updated>
       <workItem from="1518712836825" duration="262000" />
-      <workItem from="1518714103330" duration="4445000" />
+      <workItem from="1518714103330" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4707000" />
+    <option name="totallyTimeSpent" value="4934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="657" y="49" width="1141" height="881" extended-state="0" />
@@ -240,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
