@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb85a47f-d14f-4f49-94b2-b38f1b34bddc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" afterPath="$PROJECT_DIR$/sorted-binary-tree/binaryTree.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="binaryTree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="392">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -55,9 +54,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="839" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="733" />
+    <option name="y" value="38" />
     <option name="width" value="1141" />
     <option name="height" value="881" />
   </component>
@@ -131,15 +130,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518712833097</updated>
       <workItem from="1518712836825" duration="262000" />
-      <workItem from="1518714103330" duration="355000" />
+      <workItem from="1518714103330" duration="1420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617000" />
+    <option name="totallyTimeSpent" value="1682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="839" y="69" width="1141" height="881" extended-state="1" />
+    <frame x="733" y="38" width="1141" height="881" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -210,8 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sorted-binary-tree/binaryTree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="392">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
         </state>
       </provider>
