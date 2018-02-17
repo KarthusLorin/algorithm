@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>排序二叉树-节点查找</title>
+    <title>排序二叉树-节点删除</title>
 </head>
 <body>
 <script type="text/javascript">
@@ -124,7 +124,55 @@
 
         this.search = function (key) {
             return searchNode(root, key);
-        }
+        };
+
+        // 查找当前节点右侧下的最小节点
+        var findMinNode = function (node) {
+            if (node) {
+                while(node && node.left !== null) {
+                    node = node.left;
+                }
+                return node;
+            }
+            return null;
+        };
+
+        var removeNode = function (node, key) {
+            if (node === null) {
+                return null;
+            }
+
+            if (key < node.key) {
+                node.left = removeNode(node.left, key);
+                return node;
+            } else if (key > node.key) {
+                node.right = removeNode(node.right, key);
+                return node;
+            } else {
+                if (node.left === null && node.right === null) {
+                    node = null;
+                    return node;
+                }
+                if (node.left === null) {
+                    node = node.right;
+                    return node;
+                } else if (node.right === null){
+                    node = node.left;
+                    return node;
+                }
+
+                // 删除含有两个子节点的节点
+                // 将右侧最小节点替换为当前节点
+                var aux = findMinNode(node.right);
+                node.key = aux.key;
+                node.right = removeNode(node.right, aux.key);
+                return node;
+            }
+        };
+
+        this.remove = function (key) {
+            root = removeNode(root, key);
+        };
     }
 
     var nodes = [8, 3, 10, 1, 6, 14, 4, 7, 13];
@@ -137,10 +185,12 @@
         console.log(key);
     };
 
-    console.log("min node is: " + binaryTree.min());
-    console.log("max node is: " + binaryTree.max());
-    console.log(binaryTree.search(7) ? 'key 7 is found' : 'key 7 is not found');
-    console.log(binaryTree.search(7) ? 'key 7 is found' : 'key 7 is not found');
+    binaryTree.remove(3);
+
+    // console.log("min node is: " + binaryTree.min());
+    // console.log("max node is: " + binaryTree.max());
+    // console.log(binaryTree.search(7) ? 'key 7 is found' : 'key 7 is not found');
+    // console.log(binaryTree.search(11) ? 'key 11 is found' : 'key 11 is not found');
 
     // binaryTree.inOrderTraverse(callback);
     // binaryTree.preOrderTraverse(callback);
